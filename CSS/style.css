@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+.fila-inferior, .fila-medio, .fila-superior {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    font-size: 3em;
+}
